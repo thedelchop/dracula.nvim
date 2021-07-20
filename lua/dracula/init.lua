@@ -314,7 +314,7 @@ highlight('NeogitNotificationError', colors.red, nil, nil, nil)
 
 highlight('NeogitDiffAddHighlight', colors.green, nil, nil, nil)
 highlight('NeogitDiffDeleteHighlight', colors.red, nil, nil, nil)
-highlight('NeogitDiffContextHighlight', colors.cyan, nil, nil, nil)
-highlight('NeogitHunkHeader', colors.purple, nil, nil, nil)
+highlight('NeogitDiffContextHighlight', colors.purple, colors.selection, nil, nil)
+highlight('NeogitHunkHeader', colors.cyan, nil, nil, nil)
 highlight('NeogitHunkHeaderHighlight', colors.selection, nil, nil, nil)
 
