@@ -308,3 +308,13 @@ highlight('LspReferenceText', colors.orange, nil, nil, nil)
 highlight('LspReferenceRead', colors.orange, nil, nil, nil)
 highlight('LspReferenceWrite', colors.orange, nil, nil, nil)
 
+highlight('NeogitNotificationInfo', colors.cyan, nil, nil, nil)
+highlight('NeogitNotificationWarning', colors.yellow, nil, nil, nil)
+highlight('NeogitNotificationError', colors.red, nil, nil, nil)
+
+highlight('NeogitDiffAddHighlight', colors.green, nil, nil, nil)
+highlight('NeogitDiffDeleteHighlight', colors.red, nil, nil, nil)
+highlight('NeogitDiffContextHighlight', colors.cyan, nil, nil, nil)
+highlight('NeogitHunkHeader', colors.purple, nil, nil, nil)
+highlight('NeogitHunkHeaderHighlight', colors.selection, nil, nil, nil)
+
